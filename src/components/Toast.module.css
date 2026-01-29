@@ -15,6 +15,7 @@
 
     --ease-out-quint: cubic-bezier(0.23,1,0.32,1);
     transform-origin: bottom;
+    will-change: transform, opacity;
     opacity: 1;
     transform: translateY(calc(var(--index) * (100% + var(--gap)) * -1)) scale(1);
     transition-duration: 500ms;
