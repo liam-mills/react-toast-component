@@ -1,0 +1,20 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 24px;
+  height: 100%;
+}
+
+.toaster {
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  width: 356px;
+  transform: translateX(-50%);
+  --gap: 16px;
+}
